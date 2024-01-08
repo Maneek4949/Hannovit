@@ -1,0 +1,109 @@
+{% extends 'base.html'%}
+{%load static%}
+
+{%block title%}
+Our Client Projects that Drive Success | Hannovit Technologies
+{% endblock %}
+{%block meta%}
+Discover our IT consulting portfolio. Elevate your digital transformation journey with us.
+{%endblock%}
+
+{%block body_block%}
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="w-100 h-75" style="max-height: 500px;" src="{% static 'img/portfolio.webp' %}" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3">
+                    <h1 class="display-6 text-white mb-md-4 animated zoomIn">Beyond Expectations, Beyond Solutions</h1>
+                    <h2 class="h3 text-warning text-uppercase mb-3 animated slideInDown">Beyond Expectations, Beyond Solutions</h2>
+                    <a href="{%url 'contact' %}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Consultation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row g-5 mt-4">
+            <div class="col-lg-6 order-last order-md-first">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h2  class="mb-0">City Marketplace For Germany</h2 >
+                </div>
+                <p class="mb-4">The small city council aims to promote the local market and protect it from giant online e-commerce sites. To achieve this, they plan to develop a portal that allows local shops to establish an online presence for their products. Shopkeepers, restaurants, and other service providers such as plumbers, beauty parlors, lawyers, and chartered accountants will have the opportunity to register their businesses and sell their offerings through this portal. Additionally, store and office spaces can also...</p><a href="{%url 'portfolio_detail' id='city-marketplace-for-the-burgdorf-germany' %}"><h2 class="h5 text-primary">Explore More</h2></a>
+            </div>
+            <div class="col-lg-6 order-first order-md-last" >
+                <div class="position-relative h-100">
+                    <img alt="porfolio Image" class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/city-marketplace-for-the-burgdorf-germany.webp' %}">
+                </div>
+            </div>
+        </div>
+        <div class="row g-5 mt-4">
+            <div class="col-lg-6">
+                <div class="position-relative h-100">
+                    <img alt="porfolio Image" class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/learnweb-e-learning-platform.webp' %}" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h2  class="mb-0">Learnweb E-Learning Platform</h2 >
+                </div>
+                <p class="mb-4">Our client in the USA teaches offline/online courses, across various domains to students. He also wants to start another income stream where he has his portal. Students will come and register themselves. Few courses are free and certain courses are paid. For Paid courses, students will have to buy a subscription plan. The product consists of two key components - the "Admin Portal" and the "Students Login." The Admin Portal serves as the central control system, enabling administrators to upload d...</p><a href="{%url 'portfolio_detail' id='learnweb-e-learning-platform' %}"><h2 class="h5 text-primary">Explore More</h2></a>
+            </div>
+        </div>
+        <div class="row g-5 mt-4">
+            <div class="col-lg-6 order-last order-md-first">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h2  class="mb-0">Portal To Create An Ecommerce Websites</h2 >
+                </div>
+                <p class="mb-4">Many small shop owners in India mainly sell their products in physical stores and have a limited presence on the Internet. This lack of online visibility often leads to financial losses because they struggle to keep track of their inventory. shopkeepers don't have accounting software to maintain records of their profits and loss. To solve the above problems, the client wanted to develop software that should be easy to use and can run on the SAAS model.</p><a href="{%url 'portfolio_detail' id='saas-portal-to-create-an-ecommerce-websites-india' %}"><h2 class="h5 text-primary">Explore More</h2></a>
+            </div>
+            <div class="col-lg-6 order-first order-md-last" >
+                <div class="position-relative h-100">
+                    <img alt="porfolio Image" class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/saas-portal-to-create-an-ecommerce-websites-india.webp' %}" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        <div class="row g-5 mt-4">
+            <div class="col-lg-6" >
+                <div class="position-relative h-100">
+                    <img alt="porfolio Image" class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s"src="{% static 'img/iot-based-nurse-calling-system-germany.webp' %}"style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h2  class="mb-0">IOT Based Nurse Calling System</h2 >
+                </div>
+                <p class="mb-4">The nursing care hospital/old age center in Germany caters to elderly patients who require attentive care due to their age and health conditions. Now, hospitals want to automate the communication system in each patient room to quickly assist patients who need help during an emergency, hence minimizing delays and ensuring swift action. If a nurse fails to respond promptly, an automatic escalation process through SMS and phone notifications should be initiated by software The management team shoul...</p><a href="{%url 'portfolio_detail' id='iot-based-nurse-calling-system-germany' %}"><h2 class="h5 text-primary">Explore More</h2></a>
+            </div>
+        </div>
+        <div class="row g-5 mt-4">
+            <div class="col-lg-6 order-last order-md-first">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h2  class="mb-0">Patients Lead Management Software</h2 >
+                </div>
+                <p class="mb-4">As a software development company, we were approached by a client from the USA in the healthcare industry with a unique requirement. They needed a software solution to assist chiropractors in efficiently managing their leads from various channels such as CallRail and RingCentral. The primary objective of this software was to offer chiropractic clinics a comprehensive view of new missed patient leads, ensuring that no potential clients slipped through the cracks. Additionally, the software would ...</p><a href="{%url 'portfolio_detail' id='patients-lead-management-software-usa' %}"><h2 class="h5 text-primary">Explore More</h2></a>
+            </div>
+            <div class="col-lg-6 order-first order-md-last" >
+                <div class="position-relative h-100">
+                    <img alt="porfolio Image" class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/patients-lead-management-software-usa.webp' %}" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+        <div class="row g-5 mt-4">
+            <div class="col-lg-6 order-last order-md-first" >
+                <div class="position-relative h-100">
+                    <img alt="porfolio Image" class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/injury-care-system-seattle-usa.webp' %}"style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 order-first order-md-last">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h2  class="mb-0">Injury Care System, Seattle, USA</h2 >
+                </div>
+                <p class="mb-4">Many accidental patients need long-term treatment. Before starting treatment, the hospital or clinic needs to fill out a lot of details of patients, as well as need consent and a few signatures from the patient. This complete process is manual, and in many cases, they had to fill in details multiple times. Maintaining paperwork was not an easy task for hospitals and they needed SAAS software, where multiple clinics could register them and automate this manual process. The primary objective of th...</p><a href="{%url 'portfolio_detail' id='injury-care-system-seattle-usa' %}"><h2 class="h5 text-primary">Explore More</h2></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{%endblock%}

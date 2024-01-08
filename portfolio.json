@@ -1,0 +1,268 @@
+[{
+    "meta":"Transforming Burgdorf, DE with marketplace software solutions. Learn about Hannovit's technology.","id":"city-marketplace-for-the-burgdorf-germany",
+    "title":"City Marketplace For Germany",
+    "overview":"We offer comprehensive cloud solution services, including, seamless onboarding, and efficient migration of your existing projects on Cloud platforms. We guide you in using the full potential of cloud.",
+    "image":"../../static/img/Cloud-Solution-Design.webp",
+    "content":{
+        "headings":[
+            {"title":"","image":"../../static/img/city-marketplace-for-the-burgdorf-germany.webp"},
+            {"title":"Challenges"},
+            {"title":"Product Description"},
+            {"title":"Applied Technologies"},
+            {"title":"Project Highlights"}
+            
+           
+        ],
+        "subheadings": {
+            "":[{"title":"Business Goals"}],
+            "Product Description": [
+                {"title": "Super Admin Portal"},
+                  {"title":"Portal For Individual Shopkeepers/ Restaurants/ Service Owners"},
+                  {"title": "City Portal For End Users"}
+                ]
+            },
+        "contents": {
+            "":{
+                "Business Goals":"The small city council aims to promote the local market and protect it from giant online e-commerce sites. To achieve this, they plan to develop a portal that allows local shops to establish an online presence for their products. Shopkeepers, restaurants, and other service providers such as plumbers, beauty parlors, lawyers, and chartered accountants will have the opportunity to register their businesses and sell their offerings through this portal. Additionally, store and office spaces can also be registered by any other service provider. The city council should be able to register public places and people should be able to view details of upcoming events on this portal."
+            },
+            "Challenges":"The client was unsure about their specific requirements and provided us with a brief description: they needed a portal for a city. However, they had a fixed release date in mind. Additionally, they were uncertain about the categories of products, which posed a challenge for us in creating software that could accommodate any category of product, service, or event for upload and sale.",
+            "Product Description": {
+                "Super Admin Portal":"<ul><li>This is an entry point to register shop owners, shops, restaurants, services, events, city info, and products. Super admin has all the right to show/hide anything on this portal. Portal has a user management system also where they can create different users with different rights. User Management - Control everything about users.</li><br><li>Setup new Entity - Register/unregister shops, restaurants service, city info, events, and even add products for shops also. Can control all the information related to shops. Could also control the right of the shop whether it can upload products or just its profile. Can approve/reject a product from a portal if the product doesn't follow guidelines.</li><br><li>Could add/remove festival offers/any other offers, categories, brands, coupons, deals, and many more.</li></ul>",
+                "Portal For Individual Shopkeepers/ Restaurants/ Service Owners":"Once any business and its owner get registered from the super admin portal, they can control their information including photos, products, and any info related to the business, e.g. address, map, mobile number, email, etc.",
+                "City Portal For End Users":"Users can search any shops, restaurants, products, services, or any other info related to the city. They can check the entity details on the map and their contact information."
+
+            },
+            "Applied Technologies":" <ul<li>HTML, CSS3, Jquery, Javascript</li><br><li>UI/UX design</li><br><li>Python/Django</li><br><li>SQL</li><br><li>Nginx</li><br></ul>",
+            
+            "Project Highlights":"<ul><li>Developed own search engine for the portal</li><br><li>Created highly customizable design</li></ul>"
+           
+    }
+
+}
+},
+{
+    "meta":"Learnweb - Your gateway to interactive e-learning. Explore knowledge enhancement with Hannovit.","id":"learnweb-e-learning-platform",
+    "title":"Learnweb E-Learning Platform",
+    "overview":"We offer comprehensive cloud solution services, including, seamless onboarding, and efficient migration of your existing projects on Cloud platforms. We guide you in using the full potential of cloud.",
+    "image":"../../static/img/learnweb-e-learning-platform.webp",
+    "content":{
+        "headings":[
+            {"title":"","image":"../../static/img/learnweb-e-learning-platform.webp"},
+            {"title":"Challenges"},
+            {"title":"Product Description"},
+            {"title":"Applied Technologies"},
+            {"title":"Project Highlights"}
+            
+           
+        ],
+        "subheadings": {
+            "":[{"title":"Business Goals"}]
+            },
+        "contents": {
+            "":{
+                "Business Goals":"Our client in the USA teaches offline/online courses, across various domains to students. He also wants to start another income stream where he has his portal. Students will come and register themselves. Few courses are free and certain courses are paid. For Paid courses, students will have to buy a subscription plan. The product consists of two key components - the 'Admin Portal' and the 'Students Login.' The Admin Portal serves as the central control system, enabling administrators to upload different types of courses, such as PDFs, YouTube videos, and custom video content. Administrators can organize courses into multiple chapters, creating comprehensive and structured learning paths. Additionally, they can specify whether a course is free or requires a paid subscription plan for enrollment."
+            },
+            "Challenges":"The client wants various types of formats to be uploaded. PDF and video courses. He also wants to show courses from youtube as well as wants to keep certain courses private ie keep them on their server. We have to make sure the speed of the video should be fast while uploading and downloading, or else it will ruin the experience of learning.",
+            "Product Description": "The product consists of two components - 'Admin Portal' and 'Students Login'.<li>The Admin Portal allows administrators to upload different types of courses, such as PDFs, YouTube videos, or uploaded videos.</li><br><ul><li>Administrators can upload multiple chapters of a certain course.</li><br><li>Administrators can define whether a course is paid or free within the Admin Portal</li><br>.<li>The User Management functionality within the Admin Portal enables administrators to manage user accounts effectively.</li><br><li>Administrators can easily handle user permissions, granting or restricting access as required.</li><br><li>Students can enroll themself for free or paid courses.</li><br><li>They can search and select any course by name, category, or by course name itself.</li><br><li>If they stop, in between a course, the course will resume from the same point where they stopped.</li></ul>"
+
+        ,
+            "Applied Technologies":" <ul<li>HTML, CSS3, Jquery, Javascript</li><br><li> MySQL Database</li><br><li>Python/Django</li><br><li>SQL</li><br><li>AWS Cloud</li><br></ul>",
+            
+            "Project Highlights":"<ul><li> Integration with various tools like Adobe Embed API</li><br><li>Used FFmpeg library to convert the video and upload it on aws bucket</li><br><li>Stripe Payment gateway for paid courses</li><br><li> Video Player Integration for video courses</li><br><li>Mobile optimized design</li><br></ul>"
+           
+    }
+
+}
+},
+{
+    "meta":"Create a captivating online store with Hannovit Technologies. Unleash your e-commerce potential.","id":"saas-portal-to-create-an-ecommerce-websites-india",
+    "title":"Portal To Create An Ecommerce Websites",
+    "overview":"We offer comprehensive cloud solution services, including, seamless onboarding, and efficient migration of your existing projects on Cloud platforms. We guide you in using the full potential of cloud.",
+    "image":"../../static/img/Cloud-Solution-Design.webp",
+    "content":{
+        "headings":[
+            {"title":"","image":"../../static/img/saas-portal-to-create-an-ecommerce-websites-india.webp"},
+            {"title":"Challenges"},
+            {"title":"Product Description"},
+            {"title":"Project Highlights"}
+            
+           
+        ],
+        "subheadings": {
+            "":[{"title":"Business Goals"}],
+            "Product Description": [
+                {"title": "Portal To Create An E-Commerce Website In 3 Steps"},
+                  {"title":"Admin Portal For Shopkeepers"},
+                  {"title": "Individual Ecommerce Website Of Each Shopkeepe"}
+                ]
+            },
+        "contents": {
+            "":{
+                "Business Goals":"Many small shop owners in India mainly sell their products in physical stores and have a limited presence on the Internet. This lack of online visibility often leads to financial losses because they struggle to keep track of their inventory. shopkeepers don't have accounting software to maintain records of their profits and loss. To solve the above problems, the client wanted to develop software that should be easy to use and can run on the SAAS model."
+            },
+            "Challenges":"There are millions of small business owners and most of them are non-technical people. However, they should be able to create their store website by themselves within a few steps. They should be able to do tasks like managing inventory, creating invoices, and checking profit/loss reports with very less effort else they will not use the software. We interviewed approx 100 business owners of different fields and there were many iterations while designing screens of software. Every time we used to design mockup screens, we used to get that checked by shopkeepers and check their responses. Technically also, It was a challenging task to create software of that level that will be used by millions of business owners within the next few years from now.",
+            "Product Description": {
+                "Portal To Create An E-Commerce Website In 3 Steps":"<ul><li>TAny shop owner can create their e-commerce website in 3 steps.</li><br><li> They have to enter their mobile number, business category, and business name, and their unique website gets created in just 1 minute.</li></ul>",
+                "Admin Portal For Shopkeepers":"<ul><li>Shop owner can check their Inventory, Orders, Invoices, and profit/loss statement from here.</li><br><li>They can also generate online invoices and send them to their customers using SMS.</li><br><li>They can also view various reports on the products.</li></ul>",
+                "Individual Ecommerce Website Of Each Shopkeepe":"<ul><li>Customers can visit the individual website of every shop owner.</li><br><li>They can search and filter products and order them online.</li><br><li>Customers can also view their invoices in their account section.</li><br></ul>"
+
+            },
+            
+            "Project Highlights":"<ul><li>Integrated with the messaging system to send product order details</li><br><li> Integrated with the Whatsapp system to send and advertise products on WhatsApp</li><br><li>Created highly customizable design</li><br><li>Reports and dashboard with highlighted relevant information</li><br><li>Mobile optimized designs</li></ul>"
+           
+    }
+
+}
+},
+{
+    "meta":"Advanced injury care system available in Seattle, WA. Discover Hannovit's technology for better care.","id":"injury-care-system-seattle-usa",
+    "title":"Injury Care System, Seattle, USA",
+    "image":"../../static/img/Cloud-Solution-Design.webp",
+    "content":{
+        "headings":[
+            {"title":"","image":"../../static/img/injury-care-system-seattle-usa.webp"},
+            {"title":"Product Description"},
+            {"title":"Applied Technologies"}
+            
+           
+        ],
+        "subheadings": {
+            "":[{"title":"Business Goals"}],
+            "Product Description": [
+                {"title": ""},
+                  {"title":"Portal For Clinics"},
+                  {"title": "Portal For Patients"}
+                ]
+            },
+        "contents": {
+            "":{
+                "Business Goals":"Many accidental patients need long-term treatment. Before starting treatment, the hospital or clinic needs to fill out a lot of details of patients, as well as need consent and a few signatures from the patient. This complete process is manual, and in many cases, they had to fill in details multiple times. Maintaining paperwork was not an easy task for hospitals and they needed SAAS software, where multiple clinics could register them and automate this manual process. The primary objective of this software was to keep the details of patients while also keeping accident details. The software should be able to create and upload e-agreement."
+            },
+            "Product Description": {
+                "":"As a lot of details needed to be filled in by the patient, the clinic needed a web version of the same, which should also have tab friendly UI.",
+                "Portal For Clinics":"<ul><li>Clinics could register themselves Authorized staff can collect, check and manage patient's details</li><br><li>Admin users can control the access of other users</li><br><li>Check the reports of various patients under treatment</li><br><li>Could check the details like their next visit/appointment</li><br><li>Could also check the various details related to their insurance</li><br></ul>",
+                "Portal For Patients":"<ul><li>The patient can fill in their detail</li><br><li> Should be able to fill in the details of the accident and the insurance company</li><br><li> E-agreement needs to be signed by the patient</li><br></ul>"
+
+            },
+            "Applied Technologies":" <ul<li>HTML, CSS3, Jquery, Javascript</li><br><li>UI/UX design</li><br><li>Python/Django</li><br><li>SQL</li><br><li>Nginx</li><br></ul>"
+           
+    }
+
+}
+},
+{
+    "meta":"Manage patient leads seamlessly with Hannovit's software. Optimize your patient acquisition process.","id":"patients-lead-management-software-usa",
+    "title":"Patients Lead Management Software",
+    "image":"../../static/img/Cloud-Solution-Design.webp",
+    "content":{
+        "headings":[
+            {"title":"","image":"../../static/img/patients-lead-management-software-usa.webp"},
+            {"title":"Challenges"},
+            {"title":"Product Description"},
+            {"title":"Applied Technologies"}
+            
+           
+        ],
+        "subheadings": {
+            "":[{"title":"Business Goals"}],
+            "Product Description": [
+                {"title": "Project Highlights"},
+                  {"title":"Description"}
+                ]
+            },
+        "contents": {
+            "":{
+                "Business Goals":"As a software development company, we were approached by a client from the USA in the healthcare industry with a unique requirement. They needed a software solution to assist chiropractors in efficiently managing their leads from various channels such as CallRail and RingCentral. The primary objective of this software was to offer chiropractic clinics a comprehensive view of new missed patient leads, ensuring that no potential clients slipped through the cracks. Additionally, the software would enable chiropractors to track the progress and status of each lead, empowering them to prioritize and follow up accordingly."
+            },
+            "Challenges":"Our team rose to the challenge and developed a powerful software tool that seamlessly integrates with different communication channels, providing chiropractors with a centralized platform to monitor and manage their leads effectively. By streamlining lead management processes, our software helps chiropractors maximize their chances of converting potential patients into satisfied clients, ultimately driving growth and success for their clinics. This project stands as a testament to our expertise in software development, highlighting our ability to create tailored solutions that address unique challenges in the healthcare industry.",
+            "Product Description": {
+                "Project Highlights":"<ul><li>Integration with various tools like CallRail and RingCentral</li><br><li>Real-time data update on the portal</li><br><li>Direct calling feature from the platform using CallRail.</li><br><li> Direct messaging feature from the platform using RingCentral</li><br><li>Reports and dashboard with highlighted relevant information</li><br><li> Access to call recording audio and transcription</li><br><li>Mobile optimized designs</li><br></ul>",
+                "Description":"The project consisted of two main components: the Super Admin Portal and the Clinic Portal. The Super Admin Portal served as an entry point for the portal administrator to register clinics intending to use the platform. With complete control over the portal, the Super Admin had the flexibility to show or hide specific elements as needed. The portal also featured a user management system, allowing the Super Admin to create different users with varying levels of access control. The User Management functionality within the Super Admin Portal provided full control over user accounts. Administrators could easily manage user permissions, granting or restricting access as required. Another crucial aspect of the software was the ability to set up new clinics. The Super Admin could register or unregister clinics and manage all relevant information, including integration details for tools like CallRail and RingCentral. This ensured seamless connectivity between the clinics and the software, facilitating efficient lead management. Another component Clinic Portal, each clinic was provided with multiple admin users upon onboarding to the platform. These users gained access to the portal, allowing them to effectively manage their leads. One of the key features of this portal was its automatic integration with the clinic's communication channels. Whenever a lead called or booked an appointment using the calendar system, the portal captured the information in real-time through webhooks, ensuring that all leads were promptly recorded and visible within the portal. By providing a centralized platform for clinics to register, manage users, and effortlessly track leads, we enhanced efficiency and effectiveness in the healthcare industry."
+
+            },
+            "Applied Technologies":" <ul<li>HTML, CSS3, Jquery, Javascript</li><br><li>UI/UX design</li><br><li>Python/Django</li><br><li>SQL</li><br><li> AWS Cloud</li><br></ul>"
+            
+           
+    }
+
+}
+},
+{
+    "meta":"","id":"patients-lead-management-software-usa",
+    "title":"Patients Lead Management Software",
+    "image":"../../static/img/Cloud-Solution-Design.webp",
+    "content":{
+        "headings":[
+            {"title":"","image":"../../static/img/patients-lead-management-software-usa.webp"},
+            {"title":"Challenges"},
+            {"title":"Product Description"},
+            {"title":"Applied Technologies"}
+            
+           
+        ],
+        "subheadings": {
+            "":[{"title":"Business Goals"}],
+            "Product Description": [
+                {"title": "Project Highlights"},
+                  {"title":"Description"}
+                ]
+            },
+        "contents": {
+            "":{
+                "Business Goals":"As a software development company, we were approached by a client from the USA in the healthcare industry with a unique requirement. They needed a software solution to assist chiropractors in efficiently managing their leads from various channels such as CallRail and RingCentral. The primary objective of this software was to offer chiropractic clinics a comprehensive view of new missed patient leads, ensuring that no potential clients slipped through the cracks. Additionally, the software would enable chiropractors to track the progress and status of each lead, empowering them to prioritize and follow up accordingly."
+            },
+            "Challenges":"Our team rose to the challenge and developed a powerful software tool that seamlessly integrates with different communication channels, providing chiropractors with a centralized platform to monitor and manage their leads effectively. By streamlining lead management processes, our software helps chiropractors maximize their chances of converting potential patients into satisfied clients, ultimately driving growth and success for their clinics. This project stands as a testament to our expertise in software development, highlighting our ability to create tailored solutions that address unique challenges in the healthcare industry.",
+            "Product Description": {
+                "Project Highlights":"<ul><li>Integration with various tools like CallRail and RingCentral</li><br><li>Real-time data update on the portal</li><br><li>Direct calling feature from the platform using CallRail.</li><br><li> Direct messaging feature from the platform using RingCentral</li><br><li>Reports and dashboard with highlighted relevant information</li><br><li> Access to call recording audio and transcription</li><br><li>Mobile optimized designs</li><br></ul>",
+                "Description":"The project consisted of two main components: the Super Admin Portal and the Clinic Portal. The Super Admin Portal served as an entry point for the portal administrator to register clinics intending to use the platform. With complete control over the portal, the Super Admin had the flexibility to show or hide specific elements as needed. The portal also featured a user management system, allowing the Super Admin to create different users with varying levels of access control. The User Management functionality within the Super Admin Portal provided full control over user accounts. Administrators could easily manage user permissions, granting or restricting access as required. Another crucial aspect of the software was the ability to set up new clinics. The Super Admin could register or unregister clinics and manage all relevant information, including integration details for tools like CallRail and RingCentral. This ensured seamless connectivity between the clinics and the software, facilitating efficient lead management. Another component Clinic Portal, each clinic was provided with multiple admin users upon onboarding to the platform. These users gained access to the portal, allowing them to effectively manage their leads. One of the key features of this portal was its automatic integration with the clinic's communication channels. Whenever a lead called or booked an appointment using the calendar system, the portal captured the information in real-time through webhooks, ensuring that all leads were promptly recorded and visible within the portal. By providing a centralized platform for clinics to register, manage users, and effortlessly track leads, we enhanced efficiency and effectiveness in the healthcare industry."
+
+            },
+            "Applied Technologies":" <ul<li>HTML, CSS3, Jquery, Javascript</li><br><li>UI/UX design</li><br><li>Python/Django</li><br><li>SQL</li><br><li> AWS Cloud</li><br></ul>"
+            
+           
+    }
+
+}
+},
+{
+    "meta":"Efficient nurse calling system for enhanced patient care. Learn about Hannovit's healthcare solutions.","id":"iot-based-nurse-calling-system-germany",
+    "title":"IOT Based Nurse Calling System",
+    "image":"../../static/img/Cloud-Solution-Design.webp",
+    "content":{
+        "headings":[
+            {"title":"","image":"../../static/img/iot-based-nurse-calling-system-germany.webp"},
+            {"title":"Challenges"},
+            {"title":"Product Description"}
+            
+           
+        ],
+        "subheadings": {
+            "":[{"title":"Business Goals"}],
+            "Product Description": [
+                {"title": "Dashboard"},
+                {"title": "Integration With DECT Telephone System"},
+                {"title": "Reporting System"},
+                {"title": "Building And Room Identification"},
+                  {"title":"Sensor Mapping"},
+                  {"title": "Software Configuration"}
+                ]
+            },
+        "contents": {
+            "":{
+                "Business Goals":"The nursing care hospital/old age center in Germany caters to elderly patients who require attentive care due to their age and health conditions. Now, hospitals want to automate the communication system in each patient room to quickly assist patients who need help during an emergency, hence minimizing delays and ensuring swift action. If a nurse fails to respond promptly, an automatic escalation process through SMS and phone notifications should be initiated by software The management team should have access to a range of reports that provide insights and information regarding specific issues and decisions"
+            },
+            "Challenges":"To monitor and capture various parameters within each room, the hospital has implemented a network of sensors and IoT-enabled buttons. Software should be perfectly integrated with each sensor and calling system. Software should be 100% accurate as it deals with emergencies.",
+            "Product Description": {
+                "Dashboard":"<ul><li> Show a different dashboard in each wing on each floor.</li><br><li>Each Tile on the dashboard represents a room to show various details provided by sensors.</li></ul>",
+                "Integration With DECT Telephone System":"<ul><li>Phone Assignment to Rooms</li><br><li>Emergency Signal Configuration</li><br><li>Ringing Signal Activation</li><br><li>Message Delivery</li><br><li> Telephones ring, with a different ringing tone and at a different volume</li></ul>",
+                "Reporting System":"<p>Various management reports were developed that provide insights and information regarding specific issues and decisions.</p>",
+                "Building And Room Identification":"<ul><li>Assign unique identifiers or codes to each building and room in the hospital. This can be based on the floor number, building name, or a combination of both.</li><br><li>Create a comprehensive database or data structure to store the information related to each building and room.</li><br></ul>",
+                "Sensor Mapping":"<ul<li>Identify the sensors installed in each room and determine the specific parameters they measure, such as temperature, fire alarms, window status, and alarm buttons.</li><br><li>UI/UX design Associate each sensor with its corresponding room by linking the sensor data to the unique identifier or code assigned to that room.</li><br></ul>",
+                "Software Configuration":" <ul<li>Develop or utilize software that allows for building and room configuration.</li><br><li>Provide a user interface or administrative panel where the hospital staff can input and manage the information related to each building and room.</li><br><li>Python/Django</li><br><li>Create a mapping feature within the software that allows the staff to associate sensors with the appropriate rooms based on their unique identifiers or codes.</li><br><li>  Ensure that the software can handle real-time data collection from the sensors and accurately map it to the respective rooms.</li><br></ul>"
+
+            }            
+           
+    }
+
+}
+}]

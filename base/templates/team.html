@@ -1,0 +1,79 @@
+{% extends 'base.html'%}
+{%load static%}
+{%block body_block%}
+
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="max-height: 500px;">
+            <img class="w-100 h-75" src="{%static 'img/responsive-application.webp' %}" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3">
+                    <h2 class="display-6 text-white mb-md-4 animated zoomIn">Navigating Success With Our Management Team</h2>
+                    <h3 class="text-warning text-uppercase mb-3 animated slideInDown">A Fusion of Diverse Skills and Passion, Driving Excellence Together</h3>
+                    <a href="{%url 'contact' %}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Consultation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Team Start -->
+    <div class="container py-5">
+        <div class="row g-5 mt-4">
+            <div class="col-lg-5" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s" src="https://hannovit.com/assets/images/team/abhishek-jain.webp" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h1 class="mb-0">Abhishek Jain</h1>
+                </div>
+                <p><b>Managing Director</b></p>
+                <p class="mb-4">Abhishek Jain is the Managing Director of Hannovit Technologies. He has 18+ years of experience in the software industry and has worked in various companies in India, Germany, and USA. He has got vast experience in verticals like Transport, Map.<br>
+                    He has managed big teams and developed 25+ projects while working with customers in various domains. He has played various roles in program/project management, partner and customer management, software analysis, design, development, and integration.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h1 class="mb-0">Gaurav Garg</h1>
+                </div>
+                <p><b>Founding Director</b></p>
+                <p class="mb-4">Gaurav Garg, alumnus of IIT Delhi, is the Founding Director of Hannovit Technologies. He has got 20 years of Industry experience in managing several businesses across various verticals like healthcare, communication, and software spread across countries like Germany, Switzerland, Austria, India, and Sri Lanka.<br>
+                    
+                    He is also Managing Director of several other companies including NECXTCOM and AR Seniorendienstespread across various countries.
+                    
+                    He has got experience in motivating big teams of 350+ members.</p>
+            </div>
+            <div class="col-lg-5" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s" src="https://hannovit.com/assets/images/team/gaurav-garg.webp" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-5" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-75 rounded wow zoomIn" data-wow-delay="0.9s" src="https://hannovit.com/assets/images/team/alok-gupta.webp" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h1 class="mb-0">Alok Gupta</h1>
+                </div>
+                <p><b>Director Of Technology</b></p>
+                <p class="mb-4">
+                    Alok Gupta is the Director of Hannovit Technologies. He has 18+ years of experience in the IT industry and has domain expertise in Enterprise applications Integrations, Mobile technologies, and Cloud Technologies. Alok has worked for many multinational companies in India and UK.</p>
+            </div>
+        </div>
+
+
+    </div>
+   
+    <!-- Team End -->
+
+
+{%endblock%}

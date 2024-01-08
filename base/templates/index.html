@@ -1,0 +1,305 @@
+{% extends 'base.html'%}
+{%load static%}
+
+{%block title%}
+IT Consulting Company | Professional SEO Agency | Hannovit Technologies
+{% endblock %}
+{%block meta%}Hannovit Technologies is a Trusted Software Services & Technology Solutions Company offering Product engineering, emerging tech, mobility,digital transformation,and more.
+{%endblock%}
+
+{%block body_block%}
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="{% static 'img/carousel-1.webp' %}" style="max-height: 1080px;" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="h5 text-white text-uppercase mb-3 animated slideInDown">Software Development : Solution for </h3>
+                            <h2 class="display-1 text-white mb-md-4 animated zoomIn">Your Business Needs</h2>
+                            <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Consultation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="{% static 'img/carousel-2.webp' %}" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="h5 text-white text-uppercase mb-3 animated slideInDown">IT Consulting : Empowering Growth</h3>
+                            <h2 class="display-1 text-white mb-md-4 animated zoomIn">Through Tech Solutions</h2>
+                            <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Navbar & Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h3 class="h5 envfw-bold text-primary text-uppercase">About Us</h3>
+                        <h1 class="h2 mb-0">Hannovit Technologies: A Software Development Company</h1>
+                    </div>
+                    <p class="mb-4"><b>Hannovit Technologies</b> is your digital growth partner. Founded in 2018, as a software development and Digital Marketing Agency, Hannovit Technologies creates customized technology solutions to boost your brand. From user-friendly mobile apps to effective websites, we turn your ideas into reality. Our SEO skills make sure your brand gets noticed online, bringing in more visitors and interactions. With Hannovit Technologies, you'll get clear plans, open communication, and a strong drive for your success.
+
+                        Our services include user-friendly mobile apps and impactful websites, along with effective digital marketing campaigns. We also offer IT consulting, provide software solutions, offer Cloud Solutions, and conduct comprehensive Software Testing for optimal outcomes.
+                        
+                        With established offices in the USA, Germany, India, and Poland, our global presence enables us to better cater to clients around the world.</p>
+                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h2 class=" h5 mb-2">Call to ask any question</h2>
+                            <h3 class="h4 text-primary mb-0">+91 6356 6356 55</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{% static 'img/about.webp' %}" style="object-fit: cover;" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h4 class="h5 fw-bold text-primary text-uppercase">Our Approach</h4>
+                <h3 class="h2 mb-0">We Are Here to Grow Your Business Exponentially</h3>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-cubes text-white"></i>
+                            </div>
+                            <h4>Understanding Client Requirements</h4>
+                            <p class="mb-0">We start by listening to client's issues, requirements, challenges and objectives. Then we do market analysis, understand the business of the client and their existing processes and solution.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-award text-white"></i>
+                            </div>
+                            <h4>Design And Prototyping</h4>
+                            <p class="mb-0">After analysing the solution technically, we provide clients with mockup User Experience Screens. In this way clients will have a very good understanding of their product before it is developed in real life. We also provide details of technology, timeline and cost.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="{% static 'img/feature.webp' %}" style="object-fit: cover;" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-users-cog text-white"></i>
+                            </div>
+                            <h4>Agile Development Methodology</h4>
+                            <p class="mb-0">We streamline software development using the Agile Methodology. There is a close collaboration between the development team and the customer to ensure that the product meets their needs and expectations.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <h4>Rigorous Testing And Quality Assurance</h4>
+                            <p class="mb-0">Our team of testers do thorough testing of the project from the beginning. This proactive approach ensures the early detection and resolution of potential issues, guaranteeing a robust and seamless end product.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Start -->
+
+
+
+    <!-- Service Start -->
+     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
+                <h3 class="h2 mb-0">Diverse expert services for efficient business growth.</h3>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
+            
+                <div class="testimonial-item bg-light my-4">
+                    <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon">
+                                <i class="fa fa-search text-white"></i>
+                            </div>
+                           <h4 class="mb-3" style="height: 50px;">Search Engine Optimization</h4>
+                             <p class="m-0 p-3" style="height: 140px;">We help companies getting more leads by helping them increasing their orgainc search as well as Google My Bussiness (GMB) ranking on Google.</p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                                <i class="fa fa-chart-pie text-white"></i>
+                        </div>
+                       <h4 class="mb-3" style="height: 50px;">Native Mobile App Development</h4>
+                         <p class="m-0 p-3" style="height: 140px;">We specialise in crafting high-quality Android and iOS mobile applications that offer seamless performance and exceptional user experiences.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                                <div class="testimonial-item bg-light my-4">
+                   <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon">
+                                <i class="bi bi-cloudy-fill text-white"></i>
+                            </div>
+                           <h4 class="mb-3" style="height: 50px;">Cloud Solution Design And Migration</h4>
+                             <p class="m-0 p-3" style="height: 140px;">We offer comprehensive cloud solution services, including, seamless onboarding, and efficient migration of your existing projects on Cloud platforms. We guide you in using the full potential of cloud.
+                            </p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                </div>
+
+                                <div class="testimonial-item bg-light my-4">
+                                   <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon">
+                                <i class="bi bi-phone-fill text-white"></i>
+                            </div>
+                           <h4 class="mb-3" style="height: 50px;">Responsive Web Application Development</h4>
+                             <p class="m-0 p-3" style="height: 140px;">We ave the capability to develop web applications with responsive designs. They can be accessed on a variety of devices, including laptops, mobile phones, and tablets, without compromsing the user</p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                </div>
+
+                                <div class="testimonial-item bg-light my-4">
+                  <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                                <div class="service-icon">
+                                <i class="bi bi-megaphone-fill text-white"></i>
+                            </div>
+                           <h4 class="mb-3" style="height: 50px;">Digital Marketing</h4>
+                             <p class="m-0 p-3" style="height: 140px;">Digital marketing uses online channels to promote products or services, employing strategies like content creation, SEO, social media marketing, email, campaigns, and paid advertising to increase brand visibility, drive traffic, generate leads. and boost</p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                </div>
+
+                                <div class="testimonial-item bg-light my-4">
+                   <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon">
+                                <i class="fab fa-android text-white"></i>
+                            </div>
+                           <h4 class="mb-3" style="height: 50px;">Cross-Platform Mobile App</h4>
+                             <p class="m-0 p-3" style="height: 140px;">These types of mobile applications have single code for multiple platforms, like Andriod and IOS. Hence, we save a lot of development time and cost. Our team has expertise in the development of these mobile apps.</p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                </div>
+
+                                <div class="testimonial-item bg-light my-4">
+                    <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon">
+                                <i class="bi bi-megaphone-fill text-white"></i>
+                            </div>
+                           <h4 class="mb-3" style="height: 50px;">Enterprise Level Solution Design</h4>
+                             <p class="m-0 p-3" style="height: 140px;">Our specialty lies in designing enterprise-level solutions. We create custom systems that perfectly match your bussiness needs, boosting efficient and scalability. Elevate your bussiness with our startegic solution design service</p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                </div>
+
+                                <div class="testimonial-item bg-light my-4">
+                    <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon">
+                                <i class="bi bi-laptop-fill text-white"></i>
+                            </div>
+                           <h4 class="mb-3" style="height: 50px;">Software Develpment Service</h4>
+                             <p class="m-0 p-3" style="height: 140px;">Our team excels in building web solutoins as per specific requirement of our clients. We have developed several suc enterprise level applications where hundreds of users are using solutions withour any issue. These solutions are scalable.</p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                </div>
+
+                                <div class="testimonial-item bg-light my-4">
+                     <div class="service-item rounded d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="service-icon">
+                                <i class="fa fa-code text-white"></i>
+                            </div>
+                           <h4 class="mb-3" style="height: 50px;">Application Design & Architecture</h4>
+                             <p class="m-0 p-3" style="height: 140px;">Enhance your applications with our expert design and architecture consulting. We tailor solutions to optimize functionality, performance, and scalability, ensuring your technology aligns seamlessly with your bussiness objectives.</p>
+                            <a class="btn btn-lg btn-primary rounded" href="">
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                </div>
+
+
+
+                        
+
+
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- service End -->
+  
+    <!-- Blog Start -->
+    <div class="container-fluid py-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Latest Blog</h5>
+                <h3 class=" h2 mb-0">Read The Latest Articles from Our Blog Post</h3>
+            </div>
+            <div class="row g-5"> 
+                {% for blog in blogs %}
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="{{blog.image}}" alt="image">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"  href="{% url 'blog_detail' blog.id %}">{{ blog.title }}</a>
+                        </div>
+                        <div class="d-flex align-items-start flex-column p-4" style="height: 165px;">
+                           <h4 class="mb-3" style="height: 50px;">{{ blog.overview }}</h4>
+                            <a class="text-uppercase text-uppercase mt-auto p-2" href="{% url 'blog_detail' blog.id %}">{{ 'Read More' }} <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {%endfor%}
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+
+
+ 

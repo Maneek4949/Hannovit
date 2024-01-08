@@ -1,0 +1,91 @@
+{% extends 'base.html'%}
+{%load static%}
+
+{%block title%}
+Industries We Serve | Hannovit Technologies
+{% endblock %}
+{%block meta%}Our commitment to excellence spans across diverse industries, delivering outstanding results.
+{%endblock%}
+
+{%block body_block%}
+
+<div class="carousel-inner">
+    <div class="carousel-item active" style="max-height: 500px;">
+        <img class="w-100 h-100" src="{%static 'img/enterprise-level-solution.webp' %}" alt="Image">
+        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3">
+                <h1 class="display-6 text-white mb-md-4 animated zoomIn">Transforming Businesses, Elevating Industries</h1>
+                <h2 class="h3 text-warning text-uppercase mb-3 animated slideInDown">Uniting Technology, Innovation, and Success</h2>
+                <a alt="read more" href="{%url 'contact' %}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Get Consultation</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Industries Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h3 class="h1 mb-0">Healthcare</h3>
+                    </div>
+                    <p class="mb-4">Advanced technology has transformed healthcare, from precise diagnostics and online medical services to Electronic Health Records (EHRs) for seamless data management. The future holds accurate diagnostics, personalized treatments, and better outcomes through healthcare-tech fusion. Hannovit Tecnologies excels in healthcare with a German hospital nurse-calling system. In the US, we aid chiropractors with lead management.</p>
+                    <a alt="read more" href="{%url 'industries_detail' id='healthcare' %}"><h4 class="h4 text-primary">Explore More</h4></a>
+                </div>
+                <div class="col-lg-5" >
+                    <div class="position-relative h-100">
+                        <img class=" h-100 position-absolute w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{%static 'img/Healthcare.webp'%}"style="object-fit: cover;" alt="service Image">
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 mt-4">
+                <div class="col-lg-5" >
+                    <div class="position-relative h-100">
+                        <img class="h-100 position-absolute w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{%static 'img/E-commerce.webp'%}" style="object-fit: cover;" alt="service Image">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h3 class="h1 mb-0">E-Commerce</h3>
+                    </div>
+                    <p class="mb-4">Tech-driven online shopping has revolutionized retail. User-friendly e-commerce platforms empower businesses with intuitive interfaces, secure payments, and swift checkouts. Mobile apps enhance the experience, enabling easy browsing, seamless purchasing, and augmented reality for product visualization. Hannovit Technologies boosts local businesses online with a seamless sales portal. Easy product showcasing, secure transactions, and community growth.</p>
+                    <a alt="read more" href="{%url 'industries_detail' id='e-commerce' %}"><h4 class="h4 text-primary">Explore More</h4></a>
+                </div>
+            </div>
+        
+  
+        <div class="row g-5 mt-4">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h3 class="h1 mb-0">Education</h3>
+                    </div>
+                    <p class="mb-4">Technology has reshaped education, breaking classroom bounds. Digital platforms democratize learning, offering remote courses, webinars, and virtual classes. Hannovit Technologies empowers US companies with sleek online education platforms. We have developed a user-friendly course hub, enabling effortless access, discussions, and progress tracking.</p>
+                    <a alt="read more" href="{%url 'industries_detail' id='education' %}"><h4 class="h4 text-primary">Explore More</h4></a>
+                </div>
+                <div class="col-lg-5" >
+                    <div class="position-relative h-100">
+                        <img class=" h-100 position-absolute w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{%static 'img/Education.webp'%}"style="object-fit: cover;" alt="service Image">
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 mt-4">
+                <div class="col-lg-5" >
+                    <div class="position-relative h-100">
+                        <img class=" h-100 position-absolute w-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{%static 'img/Marketing-and-Advertising.webp'%}" style="object-fit: cover;" alt="service Image">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h3 class="h1 mb-0">Marketing And Advertising</h3>
+                    </div>
+                    <p class="mb-4">Technology and marketing fusion reshapes business communication and sales. Online platforms, social media, and phones drive growth. Evolving technology transforms marketing strategies continuously. Hannovit Technologies excels in creating websites that connect advertisers and clients, streamlining collaboration. Our campaign management tool enables efficient planning, execution, and data-driven optimization.</p>
+                    <a alt="read more" href="{%url 'industries_detail' id='marketing-and-advertising' %}"><h4 class="h4 text-primary">Explore More</h4></a>
+
+                </div>
+            </div>
+    </div></div>
+
+
+
+
+{%endblock%}
